@@ -16,8 +16,8 @@ function CarouselPage() {
         alt="First slide"
       />
       <Carousel.Caption>
-        <h3>First slide label</h3>
-        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+        <h3>Hello teacher</h3>
+        <p>how i am sliding.</p>
       </Carousel.Caption>
     </Carousel.Item>
     <Carousel.Item>
@@ -28,8 +28,8 @@ function CarouselPage() {
       />
 
       <Carousel.Caption>
-        <h3>Second slide label</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <h3>hello teacher</h3>
+        <p>I am sceond time sliding now </p>
       </Carousel.Caption>
     </Carousel.Item>
     <Carousel.Item>
@@ -40,9 +40,9 @@ function CarouselPage() {
       />
 
       <Carousel.Caption>
-        <h3>Third slide label</h3>
+        <h3>helloq teacher</h3>
         <p>
-          Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+          dont slide me otherwise i will start from zero.
         </p>
       </Carousel.Caption>
     </Carousel.Item>
