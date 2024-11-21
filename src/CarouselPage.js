@@ -1,11 +1,20 @@
-import React from 'react'
+// import React from 'react'
 import Carousel from 'react-bootstrap/Carousel';
 import img1 from './images/img1.jpg'
 import img2 from './images/img2.jpg'
 import img3 from './images/img3.jpg'
 import './CarouselPage.css'
+import { useNavigate } from 'react-router-dom';
+import { useEffect } from 'react';
 
 function CarouselPage() {
+  const navigate = useNavigate();
+  useEffect(() => {
+    const userName = JSON.parse(localStorage.getItem("user"));
+    if (!userName?.emailId) {
+      navigate("/login");
+    }
+  }, [navigate]);
   return (
     <div>
     <Carousel>

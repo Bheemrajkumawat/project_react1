@@ -2,15 +2,15 @@ import React from 'react';
 
 //importing typewriter-effect
 import Typewriter from "typewriter-effect";
-import './App.css';
+import './Home.css';
 
 function Home() {
     return (
-        <div className="App">
+        <div className="sty">
             <Typewriter
                 onInit={(typewriter) => {
                     typewriter
-                        .typeString("GeeksForGeeks")
+                        .typeString("Hello")
                         .pauseFor(1000)
                         .deleteAll()
                         .typeString("Welcomes You")
